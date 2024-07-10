@@ -2,11 +2,19 @@
     <head>
         <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
         <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
     </head>
     <body>
         <a-scene arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3">
+            <a-assets>
+                <a-asset-item
+                    id="apple"
+                    src="./models/joker/scene.gltf"
+                ></a-asset-item>
+            </a-assets>
             <a-marker type="pattern" url="markers\pattern-letterG.patt">
-                <a-box color="tomato" depth="2" height="4" width="0.5"></a-box>
+                <!-- <a-box color="tomato" depth="2" height="4" width="0.5"></a-box> -->
+                <a-gltf-model src="#apple" animation-mixer></a-gltf-model>
             </a-marker>
 
             <a-entity camera></a-entity>
