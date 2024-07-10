@@ -1,0 +1,11 @@
+Model Information:
+* title:	Graffiti Van Template
+* source:	https://sketchfab.com/3d-models/graffiti-van-template-4173eae412ce49d68edaa543dd92b0c2
+* author:	Renafox (https://sketchfab.com/kryik1023)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Graffiti Van Template" (https://sketchfab.com/3d-models/graffiti-van-template-4173eae412ce49d68edaa543dd92b0c2) by Renafox (https://sketchfab.com/kryik1023) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

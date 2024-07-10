@@ -1,0 +1,11 @@
+Model Information:
+* title:	Lemon Low Poly
+* source:	https://sketchfab.com/3d-models/lemon-low-poly-a61d32db63d24c0cab7dd0b5ff7f9934
+* author:	Pablo Melo - Trindart (https://sketchfab.com/PabloMelo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Lemon Low Poly" (https://sketchfab.com/3d-models/lemon-low-poly-a61d32db63d24c0cab7dd0b5ff7f9934) by Pablo Melo - Trindart (https://sketchfab.com/PabloMelo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

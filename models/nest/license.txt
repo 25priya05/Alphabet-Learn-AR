@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bird's Nest
+* source:	https://sketchfab.com/3d-models/birds-nest-01f30c72c062448085640a52e60e0954
+* author:	3dAssetsForGames (https://sketchfab.com/3dAssatsForGames)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bird's Nest" (https://sketchfab.com/3d-models/birds-nest-01f30c72c062448085640a52e60e0954) by 3dAssetsForGames (https://sketchfab.com/3dAssatsForGames) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
