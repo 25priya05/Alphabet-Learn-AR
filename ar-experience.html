@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Experience</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AR Experience</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="download-markers.html">Download Markers</a>
+    </nav>
+    <div class="content">
+        <a-scene arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3">
+            <a-assets>
+                <a-asset-item id="A" src="./models/aeroplane/scene.gltf"></a-asset-item>
+                <a-asset-item id="B" src="./models/ball/scene.gltf"></a-asset-item>
+                <a-asset-item id="C" src="./models/cat/scene.gltf"></a-asset-item>
+                <a-asset-item id="D" src="./models/dog/scene.gltf"></a-asset-item>
+                <a-asset-item id="E" src="./models/elephant/scene.gltf"></a-asset-item>
+                <a-asset-item id="F" src="./models/fox/scene.gltf"></a-asset-item>
+                <a-asset-item id="G" src="./models/guitar/scene.gltf"></a-asset-item>
+                <a-asset-item id="H" src="./models/house/scene.gltf"></a-asset-item>
+                <a-asset-item id="I" src="./models/icecream/scene.gltf"></a-asset-item>
+                <a-asset-item id="J" src="./models/joker/scene.gltf"></a-asset-item>
+                <a-asset-item id="K" src="./models/kite/scene.gltf"></a-asset-item>
+                <a-asset-item id="L" src="./models/lemon/scene.gltf"></a-asset-item>
+                <a-asset-item id="M" src="./models/monkey/scene.gltf"></a-asset-item>
+                <a-asset-item id="N" src="./models/nest/scene.gltf"></a-asset-item>
+                <a-asset-item id="O" src="./models/orange/scene.gltf"></a-asset-item>
+                <a-asset-item id="P" src="./models/parrot/scene.gltf"></a-asset-item>
+                <a-asset-item id="Q" src="./models/queen/scene.gltf"></a-asset-item>
+                <a-asset-item id="R" src="./models/rat/scene.gltf"></a-asset-item>
+                <a-asset-item id="S" src="./models/snake/scene.gltf"></a-asset-item>
+                <a-asset-item id="T" src="./models/telephone/scene.gltf"></a-asset-item>
+                <a-asset-item id="U" src="./models/umbrella/scene.gltf"></a-asset-item>
+                <a-asset-item id="V" src="./models/van/scene.gltf"></a-asset-item>
+                <a-asset-item id="W" src="./models/wax/scene.gltf"></a-asset-item>
+                <a-asset-item id="X" src="./models/xmas_tree/scene.gltf"></a-asset-item>
+                <a-asset-item id="Y" src="./models/yolk/scene.gltf"></a-asset-item>
+                <a-asset-item id="Z" src="./models/zebra/scene.gltf"></a-asset-item>
+            </a-assets>
+            <a-marker type="pattern" url="markers/pattern-letterA.patt">
+                <a-gltf-model src="#A" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterB.patt">
+                <a-gltf-model src="#B" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterC.patt">
+                <a-gltf-model src="#C" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterD.patt">
+                <a-gltf-model src="#D" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterE.patt">
+                <a-gltf-model src="#E" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterF.patt">
+                <a-gltf-model src="#F" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterG.patt">
+                <a-gltf-model src="#G" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterH.patt">
+                <a-gltf-model src="#H" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterI.patt">
+                <a-gltf-model src="#I" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterJ.patt">
+                <a-gltf-model src="#J" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterK.patt">
+                <a-gltf-model src="#K" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterL.patt">
+                <a-gltf-model src="#L" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterM.patt">
+                <a-gltf-model src="#M" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterN.patt">
+                <a-gltf-model src="#N" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterO.patt">
+                <a-gltf-model src="#O" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterP.patt">
+                <a-gltf-model src="#P" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterQ.patt">
+                <a-gltf-model src="#Q" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterR.patt">
+                <a-gltf-model src="#R" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterS.patt">
+                <a-gltf-model src="#S" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterT.patt">
+                <a-gltf-model src="#T" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterU.patt">
+                <a-gltf-model src="#U" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterV.patt">
+                <a-gltf-model src="#V" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterW.patt">
+                <a-gltf-model src="#W" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterX.patt">
+                <a-gltf-model src="#X" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterY.patt">
+                <a-gltf-model src="#Y" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-marker type="pattern" url="markers/pattern-letterZ.patt">
+                <a-gltf-model src="#Z" animation-mixer></a-gltf-model>
+            </a-marker>
+            <a-entity camera></a-entity>
+        </a-scene>
+    </div>
+</body>
+</html>
